@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:background="#e7e7e7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_original_json_str"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#666363"
+            android:gravity="left"
+            android:minHeight="90dp"
+            android:padding="5dp"
+            android:textColor="#ffffffff"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_original_parse_by_jsonobject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#666363"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="parse json by JSONObject"
+            android:textColor="#ffffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_original_parse_by_jsonobject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#666363"
+            android:gravity="left"
+            android:minHeight="90dp"
+            android:padding="5dp"
+            android:text="no content"
+            android:textColor="#ffffffff"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_original_create_by_jsonobject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#666363"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="create json by JSONOBJect"
+            android:textColor="#ffffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_original_created_by_jsonobject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#666363"
+            android:gravity="left"
+            android:minHeight="90dp"
+            android:padding="5dp"
+            android:text="no content"
+            android:textColor="#ffffffff"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_original_create_by_jsonstringer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#666363"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="create json by jsonstringer"
+            android:textColor="#ffffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_original_created_by_jsonstringer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#666363"
+            android:gravity="left"
+            android:minHeight="90dp"
+            android:padding="5dp"
+            android:text="no content"
+            android:textColor="#ffffffff"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/btn_original_parse_by_jsontokener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#666363"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="parse json by jsontokener"
+            android:textColor="#ffffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_original_parse_by_jsontokener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#666363"
+            android:gravity="left"
+            android:minHeight="90dp"
+            android:padding="5dp"
+            android:text="no content"
+            android:textColor="#ffffffff"
+            android:textSize="18dp" />
+    </LinearLayout>
+</ScrollView>
