@@ -1,5 +1,6 @@
 # JsonDemo
 An Andorid demo for Creating json string and parsing json string.
+
 This demo has used two method to parson json, the first one is using original api of android,the second one is using gson.
 
 ![](http://img.blog.csdn.net/20170609103850501?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzAwNTc5MQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
