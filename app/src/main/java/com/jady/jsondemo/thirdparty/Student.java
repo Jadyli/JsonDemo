@@ -1,16 +1,11 @@
 package com.jady.jsondemo.thirdparty;
 
-import com.google.gson.annotations.SerializedName;
-
 /**
  * Created by lipingfa on 2017/6/8.
  */
 public class Student {
-    @SerializedName("name")
     private String name;
-    @SerializedName("gender")
     private String gender;
-    @SerializedName("age")
     private int age;
 
     public String getName() {

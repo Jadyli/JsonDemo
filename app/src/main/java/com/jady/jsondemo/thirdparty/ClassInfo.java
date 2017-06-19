@@ -11,7 +11,6 @@ public class ClassInfo {
 
     @SerializedName("class")
     private String classX;
-    @SerializedName("students")
     private List<Student> students;
 
     public String getClassX() {

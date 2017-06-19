@@ -34,6 +34,7 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="parse json object"
+            android:textAllCaps="false"
             android:textColor="#ffffffff"
             android:textSize="18dp" />
 
@@ -63,6 +64,7 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="parse json array"
+            android:textAllCaps="false"
             android:textColor="#ffffffff"
             android:textSize="18dp" />
 
@@ -92,6 +94,7 @@
             android:gravity="center"
             android:padding="5dp"
             android:text="create json object"
+            android:textAllCaps="false"
             android:textColor="#ffffffff"
             android:textSize="18dp" />
 
